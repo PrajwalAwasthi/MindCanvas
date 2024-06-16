@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>MindCanvas/Home</title>
+</head>
+<body>
+    <header>
+        <a href="home.html"><img class="logo" src="images/logo.jpg" alt="logo_image"></a>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Books.html">Books</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="profile-list"><a href="#"><img class="profile" src="images/profile1.jpg" alt="profile"></a>
+                <div class="profile-content">
+                    <a href="update.html">Update profile</a>
+                    <a href="login.html">Log out</a>
+                </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <img class="image" src="images/img0.jpg" alt="Background Image">
+                <div class="search-bar">
+                    <form action="/search" method="GET">
+                        <input type="search" autocomplete="off" name="q" id="searchInput" placeholder="Search...">
+                        <div id="searchDropdown" class="dropdown-content"></div>
+                        <button id="search-btn" >Search</button>
+                    </form>
+                </div>
+            </div>
+    </main>
+    <footer>
+                <nav>
+                    <ul>
+                        <li><a href="terms_of_service.html">Terms of Service</a></li>
+                        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </nav>
+    </footer>
+
+    <script src="search.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Books.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    <title>MindCanvas/Books</title>
+</head>
+<body>
+    <button onclick="goToTop()" class="goTopBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <header>
+        <a href="home.html"><img class="logo" src="images/logo.jpg" alt="logo_image"></a>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li class="books-list" id="books-list">
+                    <a href="#">Books</a>
+                    <div class="dropdown-content">
+                        <a href="#a1">General Knowledge</a>
+                        <a href="#a2">Quantitative Aptitude</a>
+                        <a href="#a3">General Science </a>
+                        <a href="#a4">Indian History</a>
+                        <a href="#a5">Indian Polity </a>
+                        <a href="#a6">Indian Geography</a>
+                        <a href="#a7">Indian Economy</a>
+                        <a href="#a8">English</a>
+                        <a href="#a9">SSC Exam Preparation</a>
+                        <a href="#a10">Railways(RRB) Exam Preparation </a>
+                        <a href="#a11">UPSC/IAS Exam Preparation</a>
+                        <a href="#a12">Banking Exam Preparation </a>
+                        <a href="#a13">CTET/STET Exam Preparation</a>
+                        <a href="#a14">CSAT Exam Preparation</a>
+                        <a href="#a15">JEE Advanced & Mains Exam Preparation</a>
+                        <a href="#a16">Defence Related Exam</a>
+                        <a href="#a17">Other Important Exam Preparation</a>
+                        <!-- Add more dropdown items as needed -->
+                    </div>
+
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="profile-list"><a href="#"><img class="profile" src="images/profile1.jpg" alt="profile"></a>
+                    <div class="profile-content">
+                        <a href="update.html">Update profile</a>
+                        <a href="login.html">Log out</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="search-bar">
+            <form action="/search" method="GET">
+                <input type="search" name="q" id="searchInput" autocomplete="off" placeholder="Search...">
+                <div id="searchDropdown" class="search-dropdown" ></div>
+                <button id="search-btn" onclick="redirectToSelectedPage()">Search</button>
+            </form>
+        </div>
+        <div>
+            <h1 id="a1">General Knowledge</h1>
+            <div class="books-grid">
+                <div class="book" id="b1"><a target="_blank"
+                        href="https://drive.google.com/file/d/1mYSStBlqIj7Lwm6Vr-Sa8utES6sDACV2/view?usp=sharing"><img
+                            alt="Disha-Rapidfire-General-Knowledge-2021-Edition-Pdf" src="images/img1.webp"></a>
+                    <p>Rapidfire General Knowledge 2021</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/11GxhbuhGc6oTcwoyFhYteGe2FwVrz3Z7/view?usp=sharing"><img
+                            alt="Rapid-General-Knowledge-2020-Disha-publication " src="images/img2.webp"></a>
+                    <p>Rapid General Knowledge 2020</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://www.pavithran.net/wp-content/uploads/2024/03/Disha-10000-Objective-MCQs-General-Studies.pdf"><img
+                            alt="Disha-10000-Objective-MCQs-General-Studies" src="images/img3.webp"></a>
+                    <p>10000 Objective MCQs General Studies</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/190biu0GMjSuetOjuD5w2u1d7RJEiK5ff/view?usp=sharing"><img
+                            alt="disha-general-knowledge-pdf" src="images/img4.jpg"></a>
+                    <p>General Knowledge Competitive exam</p>
+                </div>
+
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18_yMbYje-PrzjI8PlzPqVLazCMS6NSOQ/view?usp=sharing"><img
+                            alt="disha-general-knowledge-pdf" src="images/img5.jpg"></a>
+                    <p>General Knowledge CSAT Paper-1</p>
+                </div>
+            </div>
+            <h1 id="a2">Quantitative Aptitude</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18DMB1kCvMgHSOIZETegtI_zwOnDLcox0/view?usp=sharing"><img
+                            alt="disha quantitative aptitude for cat and other mba exam" src="images/img6.jpg"></a>
+                    <p>Quantitative Aptitude for CAT</p>
+                </div>
+
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19UuFi39mWKufFmdzqmXDz9zmeIp6t3V2/view?usp=sharing"><img
+                            alt="quantitative aptitude" src="images/img7.jpg"></a>
+                    <p>Quantitative Aptitude for Competitive exam</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/16fOfPd0lJcJiN93fdLf_x66V1FaD_U-m/view?usp=sharing"><img
+                            alt="mathematical skill" src="images/img8.jpg"></a>
+                    <p>Mathematical skill</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17hhAaCadFQjOqwvnMLJRS6q5g6b_6nwe/view?usp=sharing"><img
+                            alt="mathematics" src="images/img9.jpg"></a>
+                    <p>Quick revision Mind-Map mathematics</p>
+                </div>
+            </div>
+            <h1 id="a3">General Science</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1I0Q9_vic2iBkt8RWvDgCQglGD_2vKKOY/view?usp=sharing"><img
+                            alt="Quick General Science" src="images/img10.jpg"></a>
+                    <p>Quick General Science for Competitive exam</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17tYR4VLoXy8naBJYlcXmZrPfDKe_yviE/view?usp=sharing"><img
+                            alt="Disha General Science Compendium PDF
+                " src="images/img11.png"></a>
+                    <p>General Science Compendium for IAS Prelims</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://www.pavithran.net/disha-5000-general-science-pdf/"><img
+                            alt="5000+ General Science Chapter-wise MCQs" src="images/img12.jpg"></a>
+                    <p>5000+ General Science MCQs</p>
+                </div>
+            </div>
+            <h1 id="a4">Indian History</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1YZCBgGRP-Lcqt7rEK5HvfT2bHfwFQqcO/view?usp=sharing"><img
+                            alt="Quick Indian History " src="images/img13.webp"></a>
+                    <p>Quick Indian History </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19TLsX2bBkmu_2ofQ0ggLKMkcRhrV9QXp/view?usp=sharing"><img
+                            alt="the indian history compendium " src="images/img14.jpg"></a>
+                    <p>The Indian History Compendium </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/15p1uvVExnl5k_AXvhC7wj_D-60QVD2vJ/view?usp=sharing"><img
+                            alt="history and polity book" src="images/img15.jpg"></a>
+                    <p>history and polity book</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17k1oJotyOSc6o_XV25o3ryGDIswnTUVk/view?usp=sharing"><img
+                            alt="Quick Revision Social Science" src="images/img16.jpg"></a>
+                    <p>Quick Revision Social Science </p>
+                </div>
+            </div>
+            <h1 id="a5">Indian Polity</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1gbuX1IJsTWkuZEmATvZCscrTeP0dknjG/view?usp=sharing"><img
+                            alt="Quick Indian Polity" src="images/img17.webp"></a>
+                    <p>Quick Indian Polity</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18tJiQx_NTwH5YJazyUvrivFp7RkKBuaE/view?usp=sharing"><img
+                            alt="	Indian Polity Compendium PDF" src="images/img18.jpg"></a>
+                    <p> Indian Polity Compendium</p>
+                </div>
+            </div>
+            <h1 id="a6">Indian Geography</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1DJYgXNYbBk7GklBYhrPkS8Uh0aRGnxOX/view?usp=sharing"><img
+                            alt="Quick Indian Geography " src="images/img19.webp"></a>
+                    <p>Quick Indian Geography </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19R_cIyAlkq36uwVq1AEwLD6vS7x5kaoP/view?usp=sharing"><img
+                            alt="Indian Geography" src="images/img20.png"></a>
+                    <p>Indian Geography</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/16CHmxc6cdYU0PAR2VVa4GwQB7c9D1nk0/view?usp=sharing"><img
+                            alt="Geography and Ecology & Environment " src="images/img21.jpg"></a>
+                    <p>Geography and Ecology & Environment</p>
+                </div>
+            </div>
+            <h1 id="a7">Indian Economy</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1ODgxySTR6rZJlXkdu1hIo3NkHf_mdZ-r/view?usp=sharing"><img
+                            alt="Quick Indian Economy" src="images/img22.webp"></a>
+                    <p>Quick Indian Economy</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19IoytLGoq_lk7rq75VOoeFVTwR7NLpXJ/view?usp=sharing"><img
+                            alt="The Economy Compendium" src="images/img23.jpg"></a>
+                    <p>The Economy Compendium</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/16CV0yoIBgY-I0FI7VCXLAaIKcZWIFVA2/view?usp=sharing"><img
+                            alt="Economy & Finance Book" src="images/img24.jpg"></a>
+                    <p>Economy & Finance Book</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/16sWQKCJFmnc8-uBEJScOWpbIkcHFeAGH/view?usp=sharing"><img
+                            alt="Economics Quick Mindmaps" src="images/img25.jpg"></a>
+                    <p>Economics Quick Mindmaps</p>
+                </div>
+            </div>
+            <h1 id="a8">English</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18KvzBo0Acf_3gJffo4Ocz4Se3MYLOdzj/view?usp=sharing"><img
+                            alt="General English for Competitive Exam" src="images/img26.jpg"></a>
+                    <p>General English for Competitive Exam</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/187Qm_reUccTrOiBYNON2KyO3P-upveD1/view?usp=sharing"><img
+                            alt="SSC English-Topicwise Latest Solved Papers (2010-2016) PDF" src="images/img27.jpg"></a>
+                    <p>SSC English-Topicwise Latest Solved Papers (2010-2016)</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17kmApuPRsXmfm1D2EZyROGgTl7HCcXiu/view?usp=sharing"><img
+                            alt="50 Cool Stories 3000 Hot Words  Master Vocabulary in 60 day"
+                            src="images/img28.jpg"></a>
+                    <p>50 Cool Stories 3000 Hot Words Master Vocabulary in 60 day</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17b4-k2r9DeKGDtrv12FJuPdKpctt0aYI/view?usp=sharing"><img
+                            alt="Tips and Techniques in English for Competitive Exam PDF" src="images/img29.jpg"></a>
+                    <p>Tips and Techniques in English for Competitive Exam PDF</p>
+                </div>
+            </div>
+            <h1 id="a9">SSC Exam Preparation</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1G-K_-ICylnAPoZQVnA_GMjuE3HKm1hlE/view?usp=sharing"><img
+                            alt="SSC Reasoning (Verbal & Non-Verbal) 3000+ MCQs " src="images/img30.webp"></a>
+                    <p>SSC Reasoning (Verbal & Non-Verbal) 3000+ MCQs </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1cDPiKMjW1_m85oSkX0FX20uuVJXcS691/view?usp=sharing"><img
+                            alt="SSC Reasoning Topic-wise 48 Solved Papers (2010-2019) 3rd Edition"
+                            src="images/img31.webp"></a>
+                    <p>SSC Reasoning Topic-wise 48 Solved Papers (2010-2019) 3rd Edition</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1wonhTu42miUVt-cnCqgD0oHKrF8wUPLC/view?usp=sharing"><img
+                            alt="General Intelligence & Critical Reasoning for MAT/ CMAT/ MHCET/ NMAT Exams"
+                            src="images/img32.webp"></a>
+                    <p>General Intelligence & Critical Reasoning for MAT/ CMAT/ MHCET/ NMAT Exams</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19AkO1b-eqtr5F61aki3ccUcrfXFCZT5E/view?usp=sharing"><img
+                            alt="10 Practice Sets for SSC Multi Tasking Exam PDF" src="images/img33.jpg"></a>
+                    <p>10 Practice Sets for SSC Multi Tasking Exam </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17xL_dIjgUq1duTwGHP0GlCOGyv7PBdQh/view?usp=sharing"><img
+                            alt="ssc mathematics guide " src="images/img34.jpg"></a>
+                    <p>ssc mathematics guide </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17qULOrNAj1-cpXkPiDpfdH4q5GfnE2Mp/view?usp=sharing"><img
+                            alt="	Handbook for Shortcuts in Reasoning Book PDF" src="images/img35.jpg"></a>
+                    <p> Handbook for Shortcuts in Reasoning Book </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18g60u_L0ECjUFnAzD8iTkN1dxX7KijED/view?usp=sharing"><img
+                            alt="SSC Junior Engineer Civil & Structural Recruitment Exam Guide PDF"
+                            src="images/img36.jpg"></a>
+                    <p>SSC Junior Engineer Civil & Structural Recruitment Exam Guide </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18oyQZwTYjUO4hyzgDQnlaLy6VgkXewBb/view?usp=sharing"><img
+                            alt="SSC Junior Engineer Mechanical Recruitment Exam Guide PDF
+                    " src="images/img37.jpg"></a>
+                    <p>SSC Junior Engineer Mechanical Recruitment Exam Guide
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1DFcP0-dH2KIXwZ-QvIOOPFvfUhVhlDof/view?usp=sharing"><img
+                            alt="SSC CGL Tier-1 & Tier-2 101 Practice Sets PDF" src="images/img38.jpg"></a>
+                    <p>SSC CGL Tier-1 & Tier-2 101 Practice Sets</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1AK3RYF_5IgDQ4-KNciLVSd2lYRxe_gVy/view?usp=sharing"><img
+                            alt="Ultimate Guide to SSC CGL Exams" src="images/img39.jpg"></a>
+                    <p>Ultimate Guide to SSC CGL Exams</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1bgrVZCqjwm7acmasg3Ar4XZglWJ_MR2q/view?usp=share_link"><img
+                            alt="SSC JE Mechanical Engineering Exam Guide – Disha" src="images/img40.webp"></a>
+                    <p>SSC JE Mechanical Engineering Exam Guide</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1abodtzdsd6sj0W7Lg7Yn-J1fGk99RWz8/view?usp=share_link"><img
+                            alt="SSC JE Civil & Structural Exam Guide " src="images/img41.webp"></a>
+                    <p>SSC JE Civil & Structural Exam Guide </p>
+                </div>
+            </div>
+            <h1 id="a10">Railways(RRB) Exam Preparation</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19kR6tLxd7k2lkjxh8NFwek5kyYHCYoUK/view?usp=sharing"><img
+                            alt="15 Practice Sets for RRB NTPC Stage-2 Exam PDF
+                    " src="images/img42.jpg"></a>
+                    <p>15 Practice Sets for RRB NTPC Stage-2 Exam
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18sTupACRaSYZaLqOMaiem8aTC8LRSukX/view?usp=sharing"><img
+                            alt="RRB Group D Megabook PDF
+                    " src="images/img43.jpg"></a>
+                    <p>RRB Group D Megabook
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18VEzGQpOxRIHUUO0ohvvXlQQqo-Eiqji/view?usp=sharing"><img
+                            alt="Guide to RRB Non-Technical Exams PDF
+                    " src="images/img44.jpg"></a>
+                    <p>Guide to RRB Non-Technical Exams
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/15oCUDffaBb7mpbnnfHdEdW8lrF3CXPKr/view?usp=sharing"><img
+                            alt="20 Practice Sets for RRB NTPC Stage-1 Book PDF
+                    " src="images/img45.jpg"></a>
+                    <p>20 Practice Sets for RRB NTPC Stage-1 Book
+                    </p>
+                </div>
+            </div>
+            <h1 id="a11">UPSC/IAS Exam Preparation</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17hedSgHOZjMqtTccWVqaQubhpnponnzO/view?usp=sharing"><img
+                            alt="Panorama and Art & Culture Book " src="images/img46.jpg"></a>
+                    <p>Panorama and Art & Culture Book</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1751pozNxp7C0LHR4ADGw7O2GKZdr7_tF/view?usp=sharing"><img
+                            alt="Ecology and Environment Compendium PDF" src="images/img47.jpg"></a>
+                    <p>Ecology and Environment Compendium</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1-gCU0aJHOKqBbudIW3UNUiNY2dsqe2LD/view?usp=sharing"><img
+                            alt="151 Essays" src="images/img48.webp"></a>
+                    <p>151 Essays</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19kve09q9RKc7hJ3H5KHmcRgFCb5_7iLx/view?usp=sharing"><img
+                            alt="101 Essays " src="images/img49.webp"></a>
+                    <p>101 Essays </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17bdeY5FpTw1XJf3AXY_3f-uqJdDKBfpH/view?usp=sharing"><img
+                            alt="IAS Prelims Last Minute Capsule PDF(Hindi)
+                    " src="images/img50.jpg"></a>
+                    <p>IAS Prelims Last Minute Capsule (Hindi)
+                    </p>
+                </div>
+
+            </div>
+            <h1 id="a12">Banking Exam Preparation</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://u.pcloud.link/publink/show?code=XZpPg9VZxinGWjogLifEmakb8bkpNmlIuSly"><img alt="Banking Awareness Book
+                    " src="images/img51.webp
+                    "></a>
+                    <p>Banking Awareness Book</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://u.pcloud.link/publink/show?code=XZcPg9VZPKAQFbt4PxuBHDksnYQxuVf11l5k"><img
+                            alt="Financial & Insurance Awareness with CA " src="images/img52.webp"></a>
+                    <p>Financial & Insurance Awareness with CA </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1ASXO1QH3kkOXEiapENBaKRfbivPNMoBs/view?usp=sharing"><img
+                            alt="Disha Computer Knowledge " src="images/img53.webp"></a>
+                    <p>Disha Computer Knowledge </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19YlIfpHQ79NezCNrknydSzg7kz0Rb9xL/view?usp=sharing"><img
+                            alt="IBPS Bank Specialist IT Officer 101 Speed Test PDF
+                    " src="images/img54.jpg"></a>
+                    <p>IBPS Bank Specialist IT Officer 101 Speed Test
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19JjrD_I6jkrc2jgk6Z_eWxhvmPB851Lk/view?usp=sharing"><img
+                            alt="SBI & IBPS Solved Papers 2010-2020 " src="images/img55.jpg"></a>
+                    <p>SBI & IBPS Solved Papers 2010-2020 </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18QOYLkfHuWaWNQu9-BNHycN0VuRicxse/view?usp=sharing"><img
+                            alt="IBPS Bank Clerk Preliminary Exam Megabook PDF
+                    " src="images/img56.jpg"></a>
+                    <p>IBPS Bank Clerk Preliminary Exam Megabook
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1ARWw5BppkpVZNmPSgwbhOdFsSrIi0pCB/view?usp=sharing"><img
+                            alt="Comprehensive Guide to IBPS Bank PO/MT PDF
+                    " src="images/img57.jpg"></a>
+                    <p>Comprehensive Guide to IBPS Bank PO/MT</p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19W4m6Bepbr5xQ944lzDGtivGCYj1ud6-/view?usp=sharing"><img
+                            alt="Topic-wise Solved Papers for Prelims & Mains Quantitative Aptitude Book PDF
+                    " src="images/img58.jpg"></a>
+                    <p>Topic-wise Solved Papers for Prelims & Mains Quantitative Aptitude Book </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19ETkcjzcjB2Sq0BM_HeA6KlenH-DQoDM/view?usp=sharing"><img
+                            alt="SBI/IBPS Bank PO Solved Papers 2010-15 PDF
+                    " src="images/img59.jpg"></a>
+                    <p>SBI/IBPS Bank PO Solved Papers 2010-15 </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18W3UyPPChs2ybVlYqy1xIJgd4YRiiEeP/view?usp=sharing"><img
+                            alt="Marketing Aptitude/ Computer Aptitude/ General & Banking Awareness Book PDF
+                    " src="images/img60.jpg"></a>
+                    <p>Marketing Aptitude/ Computer Aptitude/ General & Banking Awareness Book </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/172srYctWj-69QCBCYotddKwqAv_yv_dD/view?usp=sharing"><img
+                            alt="Comprehensive Guide to SBI Bank PO Preliminary & Mains Exam PDF
+                    " src="images/img61.jpg"></a>
+                    <p>Comprehensive Guide to SBI Bank PO Preliminary & Mains Exam </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1782Okhn4GBHgs1Pa4W6zbDfMcjYPi7mm/view?usp=sharing"><img
+                            alt="Target SBI Bank PO 20 Practice Sets PDF
+                    " src="images/img62.jpg"></a>
+                    <p>Target SBI Bank PO 20 Practice Sets </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1A6bsNz_lCJOz6NhZ6I_V19ustFr3rlfO/view?usp=sharing"><img
+                            alt="IBPS Bank Clerk Preliminary Exam Megabook PDF
+                    " src="images/img63.jpg"></a>
+                    <p>IBPS Bank Clerk Preliminary Exam Megabook </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1A7teo8fslX63vDqLBnlOifm3XH2sLnTf/view?usp=sharing"><img
+                            alt="Target IBPS PO/MT Preliminary & Main Exam PDF
+                    " src="images/img64.jpg"></a>
+                    <p>Target IBPS PO/MT Preliminary & Main Exam </p>
+                </div>
+            </div>
+            <h1 id="a13">CTET/STET Exam Preparation</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18pLL5419JV5WwislVaC9aTZV91zo8GKm/view?usp=sharing"><img
+                            alt="Disha CTET Paper-1 PDF
+                    " src="images/img65.jpg"></a>
+                    <p>Disha CTET Paper-1
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/15pJo-qBa2VBouwQVcxdJl8zjWEUjH8kh/view?usp=sharing"><img
+                            alt="CTET Paper-2 Maths & Science Book PDF
+                    " src="images/img66.jpg"></a>
+                    <p>CTET Paper-2 Maths & Science Book </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/19Bwx88i_9qIsDxKWZqWQgOChVeNOnvV_/view?usp=sharing"><img
+                            alt="CTET Paper-2 PDF
+                    " src="images/img67.jpg"></a>
+                    <p>CTET Paper-2 </p>
+                </div>
+            </div>
+            <h1 id="a14">CSAT Exam Preparation</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1ARrMxG2ZhRZ4oKaAyCnSysf07zapm3UB/view?usp=sharing"><img
+                            alt="Crack CSAT Paper-2 PDF
+                    " src="images/img68.jpg"></a>
+                    <p>Crack CSAT Paper-2 </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1ASEUlTsP4WkoKRQgj_ZKBM5RA4p1KCMO/view?usp=sharing"><img
+                            alt="CSAT General Studies Paper-1 101 Speed Test with 10 Practice Sets PDF
+                    " src="images/img69.jpg"></a>
+                    <p>CSAT General Studies Paper-1 101 Speed Test with 10 Practice Sets </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1ARejYI12IhbRMch9vzmknp3II2zWaZyr/view?usp=sharing"><img
+                            alt="21 Years CSAT General Studies IAS PDF
+                    " src="images/img70.jpg"></a>
+                    <p>21 Years CSAT General Studies IAS </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/166DzGVA40tu25bt4b--4QJr8x2vFV-Xs/view?usp=sharing"><img
+                            alt="22 Years CSAT General Studies IAS PDF(7th Edition)
+                    " src="images/img71.jpg"></a>
+                    <p>22 Years CSAT General Studies IAS </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/16-YEA5995ze-ZBFTLhjAznwGLh1zVU9R/view?usp=sharing"><img
+                            alt="General Science for CSAT Paper-1 PDF
+                    " src="images/img72.jpg"></a>
+                    <p>General Science for CSAT Paper-1 </p>
+                </div>
+
+            </div>
+            <h1 id="a15">JEE Advanced & Mains Exam Preparation</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/16vFXZNO9ZZJch5FbP1stlsCBOMzAMO48/view?usp=sharing"><img
+                            alt="41 Years JEE Advanced & Mains Physics Solved Papers PDF
+                    " src="images/img73.jpg"></a>
+                    <p>41 Years JEE Advanced & Mains Physics Solved Papers </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/15kNPxy58zF6VdyWtBnjudAUhZYy1i_ep/view?usp=sharing"><img
+                            alt="40 Years JEE Advanced & Mains Chemistry Solved Papers PDF
+                    " src="images/img74.jpg"></a>
+                    <p>40 Years JEE Advanced & Mains Chemistry Solved Papers </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17VGLELCVQa6Dx5DYDuh8rb21i1Z_dAdk/view?usp=sharing"><img
+                            alt="41 Years JEE Advanced & Mains Mathematics Solved Papers PDF
+                    " src="images/img75.jpg"></a>
+                    <p>41 Years JEE Advanced & Mains Mathematics Solved Papers </p>
+                </div>
+            </div>
+            <h1 id="a16">Defence Related Exam</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1lHuQq_cnTKGJoxRvsimJ4kJZbkxRu30D/view?usp=share_link"><img
+                            alt="NDA/NA 14 years Mathematics Topic-wise Solved Papers
+                    " src="images/img76.webp"></a>
+                    <p>NDA/NA 14 years Mathematics Topic-wise Solved Papers
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/1fUCMSoey197y0bBvD_evI8GLblCSVnLQ/view?usp=sharing"><img
+                            alt="NDA/ NA 16 years Mathematics Topic-wise Solved Papers (2006 – 2021)
+                    " src="images/img77.webp"></a>
+                    <p>NDA/ NA 16 years Mathematics Topic-wise Solved Papers (2006 – 2021)
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18t7UHXE6ono_zX75NW8IZ5BCjv6ptpQy/view?usp=sharing"><img
+                            alt="NDA/ NA 16 years English & General Knowledge Topic-wise Solved Papers (2006 – 2021)
+                    " src="images/img78.webp"></a>
+                    <p>NDA/ NA 16 years English & General Knowledge Topic-wise Solved Papers (2006 – 2021)
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18ZrdOCQMlXF8B9IUah2rPoR5PkOKIc6T/view?usp=sharing"><img
+                            alt="Disha Comprehensive Guide to CDS Book PDF
+                    " src="images/img79.jpg"></a>
+                    <p>Disha Comprehensive Guide to CDS Book </p>
+                </div>
+            </div>
+            <h1 id="a17">Other Important Exam Preparation</h1>
+            <div class="books-grid">
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17iMWd5DKpvN838YEoWcMtG9hPDgJPBkf/view?usp=sharing"><img
+                            alt="Quick General Awareness Book
+                    " src="images/img80.webp"></a>
+                    <p>Quick General Awareness Book
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/16wV2ZNlolWrOc49kqhNlj6RXZZUI8Ot7/view?usp=sharing"><img
+                            alt="AIIMS Topicwise Solved Papers with 1 Mock Test
+                    " src="images/img81.jpg"></a>
+                    <p>AIIMS Topicwise Solved Papers with 1 Mock Test
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17w2W7CX1GEmXxTgVmYl06kiKsn059B-0/view?usp=sharing"><img
+                            alt="Chemistry Chapterwise & Topicwise DPP for NEET/ AIIMS/JIPMER
+                    " src="images/img82.jpg"></a>
+                    <p> Chemistry Chapterwise & Topicwise DPP for NEET/ AIIMS/JIPMER
+                    </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/16Kcmnu_Q0eXadTPCew0m_bjokzcqYrj-/view?usp=sharing"><img
+                            alt="Reading Comprehension for CAT exam
+                    " src="images/img83.jpg"></a>
+                    <p> Reading Comprehension for CAT exam </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/18fYWdQmV1Sr2YPLnaaEGdAfapKXZSl-3/view?usp=sharing"><img
+                            alt="Disha UP Police 10 Practice Sets PDF
+
+                    " src="images/img84.jpg"></a>
+                    <p> Disha UP Police 10 Practice Sets </p>
+                </div>
+                <div class="book"><a target="_blank"
+                        href="https://drive.google.com/file/d/17l-hY7pSXJb_oXPo5mOtaDcSqvcgbYcP/view?usp=sharing"><img
+                            alt="India & World Panorama PDF
+                            " src="images/img85.jpg"></a>
+                    <p>India & World Panorama </p>
+                </div>
+            </div>
+
+
+            <!-- Add more books as needed -->
+        </div>
+
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="terms_of_service.html">Terms of Service</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="search.js"></script>
+</body>
+
+</html>

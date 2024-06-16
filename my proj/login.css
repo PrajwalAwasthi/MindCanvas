@@ -1,0 +1,83 @@
+:root {
+  --text:  #FBEFE1;
+  --primary: #333333;
+  --background: #ffffff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text);
+  min-height: 100vh;
+}
+
+.logo { 
+  width: 90%; /* Adjusted for responsiveness */
+  max-width: 500px; /* Limiting the maximum width */
+  margin: 0 auto 2rem; /* Center the logo horizontally and add space at the bottom */
+}
+
+.container {
+  position: relative;
+  width: 90%; /* Adjusted for responsiveness */
+  max-width: 400px; /* Limiting the maximum width */
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--background);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+}
+
+.login-form p{
+  font-size: 15px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  background-color: var(--primary);
+  color: var(--background);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%; /* Adjusted for smaller screens */
+  }
+}
